@@ -1,0 +1,12 @@
+<apex:page controller="VFQ4_class">
+
+    <apex:form >
+        <apex:pageBlock >
+            
+            Welcome  {!$User.FirstName}
+            <apex:inputText value="{!VFQ4_class.name}"/>
+            
+        </apex:pageBlock>
+    </apex:form>
+  
+</apex:page>

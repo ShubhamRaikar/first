@@ -1,0 +1,32 @@
+<template>
+   
+    <div>
+        
+        <h1>
+
+            Welcome into the world of LWC in depth With {Name}
+
+            <br>
+
+        
+
+            <lightning-input type=""
+                label=""
+                value={Name}
+                onchange={handleOnChange}>
+            </lightning-input>
+
+            <lightning-input type="Checkbox"
+                            label="isActive"
+                            value={isActive}
+                            onchange={handleOnChange1}
+                            ></lightning-input>
+
+        <template lwc:if={isActive}>This is my First Template</template>
+
+        <template lwc:else>This is my Second Template</template>
+
+        </h1>
+    </div>
+    
+</template>

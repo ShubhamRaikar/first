@@ -1,0 +1,27 @@
+<apex:page Controller="VFQ5_Class">
+  
+  <apex:form >
+          
+          <apex:pageBlock title="Contact">
+          
+          <apex:image url="{!$Resource.MyResource}"/>
+          <apex:pageBlockSection >
+                  
+                  <apex:inputText value="{!VFQ5_Class.firstName}"/>
+                  <apex:inputText value="{!VFQ5_Class.lastName}"/>
+                  
+          </apex:pageBlockSection>
+                
+                
+          <apex:pageBlockButtons >
+              
+              <apex:commandButton value="{!$Label.Save}" action="{!doSave}"/>
+              
+          </apex:pageBlockButtons>      
+                
+                
+          </apex:pageBlock>
+          
+  </apex:form>
+  
+</apex:page>

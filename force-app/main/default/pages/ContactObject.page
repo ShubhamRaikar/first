@@ -1,0 +1,15 @@
+<apex:page controller="MyClass" >
+          <apex:form >
+              <apex:pageBlock title="Contact">
+                           
+                      <apex:inputField value="{!Myclass.Lastname}" /> 
+                      
+                      <apex:pageBlockButtons >
+                  <apex:commandButton value="Submit" action="{!submit}"/>
+              </apex:pageBlockButtons>
+                      
+              </apex:pageBlock>
+              
+              
+          </apex:form>
+</apex:page>

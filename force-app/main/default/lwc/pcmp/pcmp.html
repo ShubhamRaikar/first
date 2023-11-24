@@ -1,0 +1,9 @@
+<template>
+    <div>parent cmp</div>
+    <template if:true={isVisible}>
+        <c-ccmp> </c-ccmp>
+    </template>
+
+    <lightning-button variant="Brand" label="Show/hide" onclick={handleClick}>
+    </lightning-button>
+</template>

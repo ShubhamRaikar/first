@@ -1,0 +1,7 @@
+<aura:component >
+	
+    <lightning:recordform objectApiName = "Account"
+                   layoutType = "Full"
+                          columns = "3"/>
+    
+</aura:component>

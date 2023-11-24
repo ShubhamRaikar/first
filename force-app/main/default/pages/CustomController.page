@@ -1,0 +1,12 @@
+<apex:page controller="Custom_with_Sharing">
+
+        <apex:form >
+            
+                <apex:pageBlock >
+                    Welcome {!$User.FirstName}
+                    <apex:inputText value="{!Custom_with_Sharing.name}"/>
+                </apex:pageBlock>
+            
+        </apex:form>
+  
+</apex:page>

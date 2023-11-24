@@ -1,0 +1,12 @@
+<aura:component >
+	
+    I am from parent component
+    
+    <c:Child  myText1 = "See the Magic... I am from Parent"/>
+    
+    <aura:handler name ="myEvt" event ="c:MyEvent" action = "{!c.handleEvent}"/>
+    
+
+    
+    
+</aura:component>
